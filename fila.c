@@ -4,14 +4,14 @@
 
 
 
-int emfila(fila_st *p, Item e) {
+int enfila(fila_st *p, Item e) {
     return insereInicio(p, e);
 }
 Item espia(fila_st *p) {
     return p->ultimo->e;
 }
 
-Item desemfila(fila_st *p) {
+Item desenfila(fila_st *p) {
     return removeUltimo(p);
 }
 
